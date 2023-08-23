@@ -1,0 +1,112 @@
+/*
+let a = 3;
+let b = 5;
+let c = 6;
+let d = 7;
+let e = 4;
+
+console.log(a % 2);
+console.log(b % 2);
+console.log(c % 2);
+console.log(d % 2);
+console.log(e % 2);
+*/
+
+//minhaIdade
+/*
+let minhaIdade = 19;
+console.log("Antes", minhaIdade);
+minhaIdade = minhaIdade + 1;
+console.log("Depois", minhaIdade);
+*/
+
+//exercicio 1
+/*
+//1)
+let a = 3;
+let b = 4;
+let soma = a + b
+console.log(soma);
+
+//2)
+let d = 5;
+let soma1 = a * d / 2;
+console.log(soma1);
+
+//3)
+let soma2 = b - d * -1
+console.log(soma2);
+
+//4)
+let resto = 234 % 5
+console.log(resto)
+*/
+
+//Exercicio 2
+/*
+let a = 15;
+let b = 22;
+
+//1)
+console.log (a === b);
+
+//2)
+console.log(a != b);
+
+//3)
+console.log(a > b);
+
+//4) 
+console.log(a < b);
+*/
+/*
+let a = 5;
+let b = 3;
+let c = 0;
+
+console.log(a === b && a !=c);
+console.log(a === b || a !=c);
+console.log("---- separador ----");
+
+console.log(true || false);
+console.log(true && false);
+console.log(true && true);
+*/
+
+//Exercicio 3
+/*
+a = true;
+b = false;
+c = true;
+
+console.log(a && b);
+console.log(b && c);
+console.log(a && c);
+console.log(a && b && c);
+console.log("----separador----");
+
+//Exercicio 4
+/*
+console.log(a || b);
+console.log(b || c);
+console.log(a || c);
+console.log(a || b || c);
+*/
+/*
+let a = true;
+let b = false;
+
+console.log(a);
+console.log(!a);
+
+console.log(b);
+console.log(!b);
+*/
+
+//Exercicio 5
+let nome = prompt ("Seu nome? ");
+let idade = prompt ("Sua idade? ");
+let ano = prompt ("Ano nascimento? ");
+const idadeEm2050 = 2050 - ano
+const maiorDeIdade = idade >=18;
+console.log("Nome: ", nome, "idade", idade, "é maior de idade? ", maiorDeIdade, "Idade em 2050: ", idadeEm2050);
